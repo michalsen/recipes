@@ -1,0 +1,46 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My Blog'
+theme = 'PaperMod'
+
+# Enable emojis
+enableEmoji = true
+
+# Enable Table of Contents
+[params]
+  # Default theme appearance - auto, light, dark
+  defaultTheme = "auto"
+  
+  # Display post date in the site
+  ShowPostDate = true
+  
+  # Show share buttons
+  ShowShareButtons = true
+  
+  # Show reading time
+  ShowReadingTime = true
+  
+  # Show table of contents on articles
+  ShowToc = true
+  
+  # Enable code copy button
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
